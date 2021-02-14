@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+.banner {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: #ffffff;
+  padding: 15px 0;
+}
+.flex-container {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60vh;
+  margin: 0 auto;
+}
+.card {
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  23px 23px 36px #bababa, -23px -23px 36px #ffffff;
+}
+.card-img {
+  height: 250px;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+}
+.dog-name {
+  padding: 15px 0;
+}
